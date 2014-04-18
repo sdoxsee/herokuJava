@@ -14,7 +14,7 @@ public class TwilioServlet extends HttpServlet {
     // You can also use doGet() or doPost()
     public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
         TwiMLResponse twiml = new TwiMLResponse();
-        Sms message = new Sms("Hello, Mobile Monkey");
+        Sms message = new Sms("Hello, Mobile Monkey Man!");
         try {
             twiml.append(message);
         } catch (TwiMLException e) {
